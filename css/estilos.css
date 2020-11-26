@@ -1,0 +1,125 @@
+*{
+    margin: 0;
+    padding: 0;
+}
+
+body {
+    background-color: #8b0000;
+background-image: url("data:image/svg+xml,%3Csvg width='40' height='1' viewBox='0 0 40 1' xmlns='http://www.w3.org/2000/svg'%3E%3Cpath d='M0 0h20v1H0z' fill='%23690606' fill-opacity='0.4' fill-rule='evenodd'/%3E%3C/svg%3E");
+    font-family: 'Roboto Condensed', sans-serif;
+    color: beige;
+    font-size: 1em;
+    line-height: 1.5em;
+    text-align: center;
+}
+
+.logo{
+    max-width: 100%;
+}
+
+h1{
+    font-family: 'Berkshire Swash', cursive;
+    color: beige;
+    font-size: 2em;
+    padding: .1em 1em;
+}
+h2{
+    font-family: 'Berkshire Swash', cursive;
+    color: beige;
+    font-size: 2em;
+}
+.libra {
+    font-family: 'Roboto Condensed', sans-serif;
+    color: #fff;
+    font-size: .5em;
+}
+.precio{
+    font-family: 'Roboto Condensed', sans-serif;
+    color: yellow;
+    font-size: 1.5em;
+}
+
+header{
+    background: rgb(175, 129, 0);
+    color: cornsilk;
+    padding: 1em 0;
+    position: fixed;
+    left: 0;
+    top: 0;
+    right: 0;
+}
+a{
+    font-size: 1em;
+    color: cornsilk;
+    text-decoration: none;
+}
+
+.logo-nav-container{
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+}
+
+ul{
+   margin: 0;
+   padding: 0; 
+   list-style: none;
+}
+
+li{
+    display: inline-block;
+}
+a{
+    background: rgb(175, 129, 0);
+    display: block;
+    padding: .1em 1em .1em .1em;
+    transition: all 0.4s linear;
+    border-radius: .5em;
+}
+a:hover{
+    background: rgb(255, 0, 0);
+}
+.boton{
+    
+    margin-top: 1em;
+   
+}
+
+main{
+    padding-top: 5em;
+    display: flex;
+    flex-direction: row;
+    flex-wrap: wrap;
+    justify-content: center;
+    align-items: center;
+}
+
+.caja{
+background: rgb(249, 224, 215);
+width: 90%;
+height: auto;
+margin: auto;
+}
+.caja0 {
+    background: none;
+}
+iframe{
+    width: 400px;
+height: 400px;
+}
+
+div {
+    background: #8B0000;
+    display: inline-block;
+    border-radius: 1em;
+    margin: .5em;
+    padding: 1em;
+    text-align: center;
+}
+
+footer{
+    font-size: .5em;
+    padding: .5em 0em;
+    text-align: center;
+    margin-top: 1em;
+}
